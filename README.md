@@ -6,9 +6,9 @@
 **When a smart city's mind is attacked, its operators become its last line of defense.**
 
 ![Team](https://img.shields.io/badge/team-SMA--W1-FF751C?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-active--development-FF751C?style=for-the-badge)
 ![Type](https://img.shields.io/badge/type-competition--project-13C6D1?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/stack-HTML%20·%20CSS%20·%20JavaScript-3BD17B?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-FC9E97?style=for-the-badge)
 
 **Team SMA-W1**
 
@@ -34,6 +34,12 @@
 - [How to Run](#how-to-run)
 - [Competition Purpose](#competition-purpose)
 - [Closing Note](#closing-note)
+
+---
+
+## Read This!
+
+ For the people looking for it, The original source code is <a href="https://github.com/MehrsamMod/SMA-W1_Nexus/releases/tag/Original_Code">here</a>
 
 ---
 
@@ -368,12 +374,20 @@ SMA-W1_Nexus/
 ---
 
 ## How to Run
+A. Using the link
+
+  You can run, use and interact with NEXUS using the <a href="https://mehrsammod.github.io/SMA-W1-Nexus">link</a>.
+
+B. Running it locally 
+
+You can run NEXUS locally usiing the steps below:
 
 1. Clone or download the project folder.
 2. Open the project folder in a code editor (e.g., VS Code).
 3. If a live server is available, run the project through it for the smoothest experience with real-time data simulation.
 4. Alternatively, open `index.html` directly in a modern web browser.
-5. No API key is required — the City Map pulls live geodata from the public OpenStreetMap Overpass and Nominatim APIs, so an internet connection is enough to load it.
+5. Also, you run do `python -m http.server 8000` on your terminal (Make sure you have Python installed on your machine).
+6. No API key is required — the City Map pulls live geodata from the public OpenStreetMap Overpass and Nominatim APIs, so an internet connection is enough to load it.
 
 ---
 
